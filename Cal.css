@@ -53,6 +53,7 @@ body {
     border: none;
     border-radius: 3px;
     outline: none;
+    color: black;
 }
 
 .button button {
