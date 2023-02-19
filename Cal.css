@@ -50,6 +50,9 @@ body {
 
 .Main .result input{
     height: 30px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
 }
 
 .button button {
@@ -58,6 +61,11 @@ body {
     border: none;
     border-radius: 2px;
     margin: 2px;
+    cursor: pointer;
+}
+
+.button button:active {
+    background-color: rgba(171, 136, 181, 0.676);
 }
 
 .button .operator {
