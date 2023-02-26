@@ -1,53 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>계산기</title>
-    
-    <link rel="stylesheet" href="Cal.css">
+  <title>Calculator</title>
 </head>
 <body>
-    <div class="Cal"> 
-        <header class="Header">
-            Calculator
-        </header>
-        <div class="Main">
-            <section>
-                <div class="result">
-                    <input class="input_val" type="input" value="" />
-                </div>
-            </section>
-            <section>
-                <div class="button">
-                    <div class="operator">
-                        <button class="operator_val">+</button>
-                        <button class="operator_val">-</button>
-                        <button class="operator_val">*</button>
-                        <button class="operator_val">/</button>
-                    </div>
-                    <div class="number">
-                        <button class="number_val">7</button>
-                        <button class="number_val">8</button>
-                        <button class="number_val">9</button>
-                        <button class="number_val">4</button>
-                        <button class="number_val">5</button>
-                        <button class="number_val">6</button>
-                        <button class="number_val">1</button>
-                        <button class="number_val">2</button>
-                        <button class="number_val">3</button>
-                        <button class="zero_button number_val">0</button>
-                        <button class="number_val">.</button>
-                    </div>
-                    <div class="result">
-                        <button class="reset_button">C</button>
-                        <button class="equal_button">=</button>
-                    </div>    
-                </div>
-            </section>
-        </div>
-    </div>
-    <script type="text/javascript" src="./Cal.js"></script>
+  <input type="text" id="num1">
+  <input type="text" id="num2">
+  <br>
+  <button onclick="add()">+</button>
+  <button onclick="subtract()">-</button>
+  <button onclick="multiply()">*</button>
+  <button onclick="divide()">/</button>
+  <br>
+  <span id="result"></span>
+  <script src="./Cal.js"></script>
 </body>
 </html>
